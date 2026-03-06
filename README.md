@@ -48,7 +48,7 @@ The harness compares actual outcomes against expected outcomes, verifies determi
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:vancuvrboy/Action-Class-Authority-Framework.git Action-Class-Authority-Framework Action-Class-Authority-Framework
+git clone git@github.com:vancuvrboy/Action-Class-Authority-Framework.git Action-Class-Authority-Framework
 cd Action-Class-Authority-Framework
 ```
 
