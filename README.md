@@ -1,8 +1,8 @@
 # Action-Class Authority Framework (ACAF) Verification Repository
 
-This repository contains the reference implementation and standalone validation harness for the Action-Class Authority Framework (ACAF) as operationalized in 911Bench WP0.
+This repository contains the reference implementation and standalone validation harness for the Action-Class Authority Framework (ACAF).
 
-The purpose of this repository is to provide a reproducible verification package for the governance framework contribution referenced in the paper's Section IX-A-a evaluation narrative.
+The purpose of this repository is to provide a reproducible verification package for the governance framework contribution in an upcoming paper.
 
 ## What This Repository Contains
 
@@ -19,7 +19,7 @@ The purpose of this repository is to provide a reproducible verification package
 
 ## Validation Objective
 
-The validation suite is designed to verify the compositional properties of ACAF in isolation from the full 911Bench simulation pipeline:
+The validation suite is designed to verify the compositional properties of ACAF in isolation from the full simulation pipeline:
 
 - deterministic operator sequencing and precedence
 - obligation enforcement during policy ingestion
@@ -94,6 +94,5 @@ Check in `governance_harness_report.json`:
 
 ## Notes on Scope
 
-- This repository captures WP0 (standalone governance verification).
-- MCP serverization work is planned for WP1.
+- This repository captures the first step (standalone governance verification) in the process of developing a full ACAF server.
 - The harness is intentionally transport-agnostic so governance logic can be validated independently.
